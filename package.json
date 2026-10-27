@@ -3,10 +3,26 @@
   "version": "1.0.0",
   "description": "pi 扩展：注入数据库连接上下文到系统提示词，并提供连接/database 选择器（pi-use-db-helper）",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taoke01/pi-use-db-helper.git"
+  },
+  "homepage": "https://github.com/taoke01/pi-use-db-helper#readme",
+  "bugs": {
+    "url": "https://github.com/taoke01/pi-use-db-helper/issues"
+  },
+  "author": "taoke01",
   "type": "module",
   "keywords": [
-    "pi-package"
+    "pi-package",
+    "pi-extension",
+    "mcp",
+    "database",
+    "oauth"
   ],
+  "engines": {
+    "node": ">=22.19.0"
+  },
   "pi": {
     "extensions": [
       "./src/index.ts"
