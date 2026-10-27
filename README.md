@@ -41,7 +41,7 @@ pi install /absolute/path/to/pi-use-db-helper
 将仓库推送到 Git 托管服务并创建版本标签后执行（替换为实际仓库地址和标签）：
 
 ```bash
-pi install git:github.com/<owner>/pi-use-db-helper@v1.0.0
+pi install git:github.com/taoke01/pi-use-db-helper@v1.0.0
 ```
 
 pi 会克隆仓库、安装运行时依赖并加载清单中声明的扩展。
